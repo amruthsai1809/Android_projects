@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomeWork3</string>
+    <string name="text">Add Words To Search:</string>
+    <string name="freq">Word Frequencies:</string>
+    <string name="finish">finish</string>
+    <string name="check">Match Cases</string>
+    <string name="search">Search</string>
+</resources>
