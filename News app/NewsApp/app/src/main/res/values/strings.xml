@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="select">Select News Source:</string>
+    <string name="getnews">Get News</string>
+    <string name="empty" />
+    <string name="description">Description:</string>
+    <string name="finish">Finish</string>
+    <string name="aaa" />
+    <string-array name="NewsSources">
+        <item>BBC</item>
+        <item>CNN</item>
+        <item>Buzzfeed</item>
+        <item>ESPN</item>
+        <item>Sky News</item>
+    </string-array>
+</resources>
