@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.amruth.myfavouritemovies.ShowListByRating">
+    <TextView
+        android:text="@string/raitnnnn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleyear9r"
+        android:layout_gravity="center_vertical"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/titleans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleans9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc9r"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="@string/descans1"
+        android:minLines="4"
+        android:maxLines="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descans9r"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/genre1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genre9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/genreans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genreans9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/rating1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/ratingans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingans9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/year1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/year9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/yearans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearans9r"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/imdb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imdb9r"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="@string/link1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/link9r"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/first"
+            android:id="@+id/imageButtonr"
+            android:layout_weight="1"
+            android:layout_width="25dp" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/previous"
+            android:scaleType="fitXY"
+
+            android:id="@+id/imageButton2r"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/fin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonr"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/next"
+            android:id="@+id/imageButton3r"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_width="25dp" />
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/last"
+            android:id="@+id/imageButton4r"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_width="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
