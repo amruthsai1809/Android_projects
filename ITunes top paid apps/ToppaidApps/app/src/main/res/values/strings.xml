@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Top paid Apps</string>
+    <string name="refresh">Refresh list</string>
+    <string name="fav">Favorites</string>
+    <string name="inc">Sort increasingly</string>
+    <string name="dec">Sort decreasingly</string>
+</resources>
+
