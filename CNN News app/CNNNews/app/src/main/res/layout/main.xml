@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:text="@string/Getfd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/screen_background_light_transparent"
+        android:id="@+id/imageView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_weight="0.78">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/scroll" >
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thetitle" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/publish" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descripton" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="87dp">
+
+        <ImageButton
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/first"
+            android:id="@+id/first"
+            android:layout_weight="1"
+            android:layout_width="75dp"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/previous"
+            android:id="@+id/prev"
+            android:layout_weight="1"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:text="@string/fin"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:id="@+id/finish"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/next"
+            android:id="@+id/next"
+            android:layout_weight="1"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/last"
+            android:id="@+id/last"
+            android:layout_weight="1"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+</LinearLayout>
