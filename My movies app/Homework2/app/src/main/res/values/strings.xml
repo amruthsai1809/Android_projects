@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="edit">Edit</string>
+    <string name="deletemovie">Delete Movie</string>
+    <string name="show_by_year">Show List By Year</string>
+    <string name="showbyrating">Show List By Rating</string>
+    <string name="name">Name:</string>
+    <string name="nametext" />
+    <string name="description">Description:</string>
+    <string name="name2">Name:</string>
+    <string name="descriptionedit" />
+    <string name="genre">Genre</string>
+    <string name="genre_prompt">Choose a Genre</string>
+    <string name="rating">Rating</string>
+    <string name="Year">Year:</string>
+    <string name="Imdb">IMDB</string>
+    <string name="rating2">Rating:</string>
+    <string name="yeardesc" />
+    <string name="imdbdesc" />
+    <string name="add">Add Movie</string>
+    <string name="seekindicator" />
+    <string name="seekindi">0</string>
+    <string name="seekind">0</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="titleyear">Movies by Year</string>
+    <string name="title1">Title:</string>
+    <string name="titleans1" />
+    <string name="desc1">Description:</string>
+    <string name="descans1" />
+    <string name="genre1">Genre</string>
+    <string name="genreans1" />
+    <string name="rating1">Rating:</string>
+    <string name="ratingans1" />
+    <string name="year1">Year:</string>
+    <string name="yearans1" />
+    <string name="imdb1">IMDB:</string>
+    <string name="link1" />
+    <string name="ratingtitle">Show by Rating</string>
+    <string name="raitnnnn">Movies by Rating</string>
+    <string name="fin1">finish</string>
+    <string name="finss">finish</string>
+    <string-array name="genre_array">
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

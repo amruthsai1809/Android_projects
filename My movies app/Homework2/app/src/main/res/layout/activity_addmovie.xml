@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_addmovie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.amruth.homework2.addmovie">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_weight="1"
+            android:text="@string/name2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/nametext"
+            android:layout_weight="1"
+            android:text="@string/nametext"
+            android:maxLength="50"
+            android:hint="Enter less than 50 characters"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/descritpionedit"
+        android:layout_height="wrap_content"
+        android:minLines="4"
+        android:maxLength="1000"
+        android:hint="Enter less than 1000 characters"
+        android:text="@string/descriptionedit"
+        android:maxLines="4"
+        android:singleLine="false" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:text="@string/genre"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/genre" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_weight="1"
+            android:entries="@array/genre_array"
+            android:prompt="@string/genre_prompt"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:text="@string/rating2"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:layout_weight="1"
+            android:layout_width="129dp" />
+
+        <SeekBar
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_weight="1"
+            android:max="5"
+            android:layout_width="190dp" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/Year"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/year"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="@string/yeardesc"
+            android:ems="10"
+            android:id="@+id/yeardesc"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/Imdb"
+            android:layout_height="wrap_content"
+            android:id="@+id/imdb"
+            android:layout_weight="1"
+            android:layout_width="100dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/imdbdesc"
+            android:ems="10"
+            android:id="@+id/imdbdesc"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:onClick="onAddMovie" />
+
+
+</LinearLayout>

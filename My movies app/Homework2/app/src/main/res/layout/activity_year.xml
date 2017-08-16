@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_year"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.amruth.homework2.YearActivity">
+
+    <TextView
+        android:text="@string/titleyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleyear9"
+        android:layout_gravity="center_vertical"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/titleans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleans9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc9"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="@string/descans1"
+        android:minLines="4"
+        android:maxLines="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descans9"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/genre1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genre9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/genreans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genreans9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/rating1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/ratingans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingans9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/year1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/year9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="@string/yearans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearans9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/imdb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imdb9"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="@string/link1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/link9"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/first"
+            android:id="@+id/imageButton"
+            android:layout_weight="1"
+            android:layout_width="25dp" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/previous"
+            android:scaleType="fitXY"
+
+            android:id="@+id/imageButton2"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/finss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/next"
+            android:id="@+id/imageButton3"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_width="25dp" />
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/last"
+            android:id="@+id/imageButton4"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_width="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

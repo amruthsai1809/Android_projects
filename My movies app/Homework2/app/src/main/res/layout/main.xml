@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="@string/add_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addmovie" />
+
+    <Button
+        android:text="@string/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:onClick="onEdit" />
+
+    <Button
+        android:text="@string/deletemovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_movie"
+        android:onClick="onDelete" />
+
+    <Button
+        android:text="@string/show_by_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Showbyyear"
+        android:onClick="onYear" />
+
+    <Button
+        android:text="@string/showbyrating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showbyrating" />
+</LinearLayout>
